@@ -1,5 +1,5 @@
 //
-//  CRTitleLabel.swift
+//  CRBodyLabel.swift
 //  Cartify
 //
 //  Created by Abd Elrahman Atallah on 09/05/2024.
@@ -7,8 +7,8 @@
 
 import UIKit
 
-class CRTitleLabel: UILabel {
-    
+class CRBodyLabel: UILabel {
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
@@ -28,7 +28,7 @@ class CRTitleLabel: UILabel {
     
     private func configure() {
         translatesAutoresizingMaskIntoConstraints = false
-        textColor = .label
-        lineBreakMode = .byTruncatingTail //ends with (...) if exceeds label width
+        textColor = .secondaryLabel
+        lineBreakMode = .byWordWrapping
     }
 }

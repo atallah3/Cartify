@@ -11,6 +11,8 @@
 		F7353B9B2BE27E2C00C1256E /* BagVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7353B982BE27E2C00C1256E /* BagVC.swift */; };
 		F7353B9D2BE27F8000C1256E /* CRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7353B9C2BE27F8000C1256E /* CRTabBarController.swift */; };
 		F741F2FB2BECE2AD0095A78C /* CRTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741F2FA2BECE2AD0095A78C /* CRTitleLabel.swift */; };
+		F741F2FF2BECEA020095A78C /* CRBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741F2FE2BECEA020095A78C /* CRBodyLabel.swift */; };
+		F741F3012BECEA430095A78C /* CRSecondaryLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741F3002BECEA430095A78C /* CRSecondaryLabel.swift */; };
 		F744AB142BE2667300544E4B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F744AB122BE2667300544E4B /* HomeVC.swift */; };
 		F744AB152BE2667300544E4B /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F744AB132BE2667300544E4B /* HomeVC.xib */; };
 		F744AB192BE270F700544E4B /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F744AB172BE270F700544E4B /* ShopVC.swift */; };
@@ -30,6 +32,8 @@
 		F7353B992BE27E2C00C1256E /* BagVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BagVC.xib; sourceTree = "<group>"; };
 		F7353B9C2BE27F8000C1256E /* CRTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRTabBarController.swift; sourceTree = "<group>"; };
 		F741F2FA2BECE2AD0095A78C /* CRTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRTitleLabel.swift; sourceTree = "<group>"; };
+		F741F2FE2BECEA020095A78C /* CRBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRBodyLabel.swift; sourceTree = "<group>"; };
+		F741F3002BECEA430095A78C /* CRSecondaryLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRSecondaryLabel.swift; sourceTree = "<group>"; };
 		F744AB122BE2667300544E4B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F744AB132BE2667300544E4B /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		F744AB172BE270F700544E4B /* ShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				F741F2FA2BECE2AD0095A78C /* CRTitleLabel.swift */,
+				F741F3002BECEA430095A78C /* CRSecondaryLabel.swift */,
+				F741F2FE2BECEA020095A78C /* CRBodyLabel.swift */,
 			);
 			name = Labels;
 			path = TabBars;
@@ -215,12 +221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F744AB142BE2667300544E4B /* HomeVC.swift in Sources */,
+				F741F2FF2BECEA020095A78C /* CRBodyLabel.swift in Sources */,
 				F741F2FB2BECE2AD0095A78C /* CRTitleLabel.swift in Sources */,
 				F7353B9B2BE27E2C00C1256E /* BagVC.swift in Sources */,
 				F74B32522BE00C7C00A01CC0 /* AppDelegate.swift in Sources */,
 				F744AB272BE2718F00544E4B /* ProfileVC.swift in Sources */,
 				F744AB192BE270F700544E4B /* ShopVC.swift in Sources */,
 				F744AB232BE2716400544E4B /* FavoriteVC.swift in Sources */,
+				F741F3012BECEA430095A78C /* CRSecondaryLabel.swift in Sources */,
 				F74B32542BE00C7C00A01CC0 /* SceneDelegate.swift in Sources */,
 				F7353B9D2BE27F8000C1256E /* CRTabBarController.swift in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  CRTitleLabel.swift
+//  CRSecondaryLabel.swift
 //  Cartify
 //
 //  Created by Abd Elrahman Atallah on 09/05/2024.
@@ -7,8 +7,8 @@
 
 import UIKit
 
-class CRTitleLabel: UILabel {
-    
+class CRSecondaryLabel: UILabel {
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
@@ -20,15 +20,14 @@ class CRTitleLabel: UILabel {
     }
     
     
-    convenience init(textAlignment : NSTextAlignment,fontSize : CGFloat) {
+    convenience init(fontSize : CGFloat) {
         self.init(frame: .zero)
-        self.textAlignment = textAlignment
-        self.font = UIFont.systemFont(ofSize: fontSize,weight: .bold)
+        self.font = UIFont.systemFont(ofSize: fontSize,weight: .medium)
     }
     
     private func configure() {
         translatesAutoresizingMaskIntoConstraints = false
-        textColor = .label
+        textColor = .secondaryLabel
         lineBreakMode = .byTruncatingTail //ends with (...) if exceeds label width
     }
 }
