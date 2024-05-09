@@ -10,6 +10,7 @@
 		F7353B9A2BE27E2C00C1256E /* BagVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7353B992BE27E2C00C1256E /* BagVC.xib */; };
 		F7353B9B2BE27E2C00C1256E /* BagVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7353B982BE27E2C00C1256E /* BagVC.swift */; };
 		F7353B9D2BE27F8000C1256E /* CRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7353B9C2BE27F8000C1256E /* CRTabBarController.swift */; };
+		F741F2FB2BECE2AD0095A78C /* CRTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F741F2FA2BECE2AD0095A78C /* CRTitleLabel.swift */; };
 		F744AB142BE2667300544E4B /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F744AB122BE2667300544E4B /* HomeVC.swift */; };
 		F744AB152BE2667300544E4B /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F744AB132BE2667300544E4B /* HomeVC.xib */; };
 		F744AB192BE270F700544E4B /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F744AB172BE270F700544E4B /* ShopVC.swift */; };
@@ -28,6 +29,7 @@
 		F7353B982BE27E2C00C1256E /* BagVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagVC.swift; sourceTree = "<group>"; };
 		F7353B992BE27E2C00C1256E /* BagVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BagVC.xib; sourceTree = "<group>"; };
 		F7353B9C2BE27F8000C1256E /* CRTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRTabBarController.swift; sourceTree = "<group>"; };
+		F741F2FA2BECE2AD0095A78C /* CRTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRTitleLabel.swift; sourceTree = "<group>"; };
 		F744AB122BE2667300544E4B /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F744AB132BE2667300544E4B /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		F744AB172BE270F700544E4B /* ShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
@@ -55,9 +57,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F741F2F82BECE17A0095A78C /* TabBars */ = {
+			isa = PBXGroup;
+			children = (
+				F7353B9C2BE27F8000C1256E /* CRTabBarController.swift */,
+			);
+			path = TabBars;
+			sourceTree = "<group>";
+		};
+		F741F2F92BECE19B0095A78C /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				F741F2FA2BECE2AD0095A78C /* CRTitleLabel.swift */,
+			);
+			name = Labels;
+			path = TabBars;
+			sourceTree = "<group>";
+		};
 		F744AB162BE2669000544E4B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F744AB252BE2718F00544E4B /* ProfileVC.swift */,
+				F744AB262BE2718F00544E4B /* ProfileVC.xib */,
 				F744AB122BE2667300544E4B /* HomeVC.swift */,
 				F744AB132BE2667300544E4B /* HomeVC.xib */,
 				F744AB172BE270F700544E4B /* ShopVC.swift */,
@@ -66,9 +87,6 @@
 				F7353B992BE27E2C00C1256E /* BagVC.xib */,
 				F744AB212BE2716400544E4B /* FavoriteVC.swift */,
 				F744AB222BE2716400544E4B /* FavoriteVC.xib */,
-				F744AB252BE2718F00544E4B /* ProfileVC.swift */,
-				F744AB262BE2718F00544E4B /* ProfileVC.xib */,
-				F74B325C2BE00C7E00A01CC0 /* LaunchScreen.storyboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -76,6 +94,7 @@
 		F744AB292BE271BF00544E4B /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				F74B325C2BE00C7E00A01CC0 /* LaunchScreen.storyboard */,
 				F74B32512BE00C7C00A01CC0 /* AppDelegate.swift */,
 				F74B32532BE00C7C00A01CC0 /* SceneDelegate.swift */,
 				F74B325A2BE00C7E00A01CC0 /* Assets.xcassets */,
@@ -86,7 +105,8 @@
 		F744AB2A2BE2799700544E4B /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
-				F7353B9C2BE27F8000C1256E /* CRTabBarController.swift */,
+				F741F2F92BECE19B0095A78C /* Labels */,
+				F741F2F82BECE17A0095A78C /* TabBars */,
 			);
 			name = "Custom Views";
 			path = Support;
@@ -195,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F744AB142BE2667300544E4B /* HomeVC.swift in Sources */,
+				F741F2FB2BECE2AD0095A78C /* CRTitleLabel.swift in Sources */,
 				F7353B9B2BE27E2C00C1256E /* BagVC.swift in Sources */,
 				F74B32522BE00C7C00A01CC0 /* AppDelegate.swift in Sources */,
 				F744AB272BE2718F00544E4B /* ProfileVC.swift in Sources */,
