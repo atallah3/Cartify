@@ -25,6 +25,10 @@
 		F74B32542BE00C7C00A01CC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B32532BE00C7C00A01CC0 /* SceneDelegate.swift */; };
 		F74B325B2BE00C7E00A01CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74B325A2BE00C7E00A01CC0 /* Assets.xcassets */; };
 		F74B325E2BE00C7E00A01CC0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F74B325D2BE00C7E00A01CC0 /* Base */; };
+		F7E973D42BF8B01900DDF8C7 /* ProductsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E973D22BF8B01900DDF8C7 /* ProductsTVCell.swift */; };
+		F7E973D52BF8B01900DDF8C7 /* ProductsTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E973D32BF8B01900DDF8C7 /* ProductsTVCell.xib */; };
+		F7E973DD2BF8C1D600DDF8C7 /* ProductsCollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E973DB2BF8C1D600DDF8C7 /* ProductsCollectionVCell.swift */; };
+		F7E973DE2BF8C1D600DDF8C7 /* ProductsCollectionVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E973DC2BF8C1D600DDF8C7 /* ProductsCollectionVCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		F74B325A2BE00C7E00A01CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74B325D2BE00C7E00A01CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F74B325F2BE00C7E00A01CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7E973D22BF8B01900DDF8C7 /* ProductsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTVCell.swift; sourceTree = "<group>"; };
+		F7E973D32BF8B01900DDF8C7 /* ProductsTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsTVCell.xib; sourceTree = "<group>"; };
+		F7E973DB2BF8C1D600DDF8C7 /* ProductsCollectionVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsCollectionVCell.swift; sourceTree = "<group>"; };
+		F7E973DC2BF8C1D600DDF8C7 /* ProductsCollectionVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductsCollectionVCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +91,6 @@
 		F744AB162BE2669000544E4B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F744AB252BE2718F00544E4B /* ProfileVC.swift */,
-				F744AB262BE2718F00544E4B /* ProfileVC.xib */,
 				F744AB122BE2667300544E4B /* HomeVC.swift */,
 				F744AB132BE2667300544E4B /* HomeVC.xib */,
 				F744AB172BE270F700544E4B /* ShopVC.swift */,
@@ -93,6 +99,8 @@
 				F7353B992BE27E2C00C1256E /* BagVC.xib */,
 				F744AB212BE2716400544E4B /* FavoriteVC.swift */,
 				F744AB222BE2716400544E4B /* FavoriteVC.xib */,
+				F744AB252BE2718F00544E4B /* ProfileVC.swift */,
+				F744AB262BE2718F00544E4B /* ProfileVC.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -111,6 +119,7 @@
 		F744AB2A2BE2799700544E4B /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				F7E973D62BF8B02F00DDF8C7 /* Cells */,
 				F741F2F92BECE19B0095A78C /* Labels */,
 				F741F2F82BECE17A0095A78C /* TabBars */,
 			);
@@ -143,6 +152,17 @@
 				F74B325F2BE00C7E00A01CC0 /* Info.plist */,
 			);
 			path = Cartify;
+			sourceTree = "<group>";
+		};
+		F7E973D62BF8B02F00DDF8C7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F7E973D22BF8B01900DDF8C7 /* ProductsTVCell.swift */,
+				F7E973D32BF8B01900DDF8C7 /* ProductsTVCell.xib */,
+				F7E973DB2BF8C1D600DDF8C7 /* ProductsCollectionVCell.swift */,
+				F7E973DC2BF8C1D600DDF8C7 /* ProductsCollectionVCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +224,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F74B325B2BE00C7E00A01CC0 /* Assets.xcassets in Resources */,
+				F7E973D52BF8B01900DDF8C7 /* ProductsTVCell.xib in Resources */,
+				F7E973DE2BF8C1D600DDF8C7 /* ProductsCollectionVCell.xib in Resources */,
 				F744AB152BE2667300544E4B /* HomeVC.xib in Resources */,
 				F744AB242BE2716400544E4B /* FavoriteVC.xib in Resources */,
 				F744AB1A2BE270F700544E4B /* ShopVC.xib in Resources */,
@@ -221,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F744AB142BE2667300544E4B /* HomeVC.swift in Sources */,
+				F7E973D42BF8B01900DDF8C7 /* ProductsTVCell.swift in Sources */,
 				F741F2FF2BECEA020095A78C /* CRBodyLabel.swift in Sources */,
 				F741F2FB2BECE2AD0095A78C /* CRTitleLabel.swift in Sources */,
 				F7353B9B2BE27E2C00C1256E /* BagVC.swift in Sources */,
@@ -231,6 +254,7 @@
 				F741F3012BECEA430095A78C /* CRSecondaryLabel.swift in Sources */,
 				F74B32542BE00C7C00A01CC0 /* SceneDelegate.swift in Sources */,
 				F7353B9D2BE27F8000C1256E /* CRTabBarController.swift in Sources */,
+				F7E973DD2BF8C1D600DDF8C7 /* ProductsCollectionVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
